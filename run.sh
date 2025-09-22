@@ -1,0 +1,1 @@
+java -XX:MaxRAMPercentage=90 -jar /app/shipping.jar
