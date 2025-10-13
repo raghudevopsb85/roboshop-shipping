@@ -1,4 +1,4 @@
-name: CICD - Main
+name: Schema Image Build
 on:
   workflow_dispatch:
 jobs:
