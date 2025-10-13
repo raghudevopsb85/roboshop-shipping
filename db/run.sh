@@ -1,6 +1,4 @@
 #!/bin/bash
 
 cd /app
-ls -ltr
-env
-#mysql -h mysql-$ -uroot -pRoboShop@1 < /app/db/master-data.sql
+mysql -h ${DB_HOST} -u${DB_USER} -p${DB_PASS} < /app/$(basename $SCHEMA_FILE)
